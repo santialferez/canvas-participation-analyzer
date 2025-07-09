@@ -17,7 +17,7 @@ A simple Python library to analyze and grade student participation in Canvas cou
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/canvas-participation-analyzer
+git clone https://github.com/santialferez/canvas-participation-analyzer
 cd canvas-participation-analyzer
 
 # Install dependencies
