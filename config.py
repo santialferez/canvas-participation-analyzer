@@ -16,8 +16,8 @@ CANVAS_API_TOKEN = os.getenv("CANVAS_API_TOKEN", "")
 COURSE_ID = 12345  # TODO: Update this with your course ID
 
 # Professor identification (to exclude from student analysis)
-PROFESSOR_NAMES = ["Professor Name"]
-PROFESSOR_IDS = [54321]  # Add specific user IDs if known
+PROFESSOR_NAMES = ["Professor Name"] # As it appears in Canvas Profile
+PROFESSOR_IDS = [54321]  # Add specific user IDs if known, otherwise leave an empty list
 
 # Date filtering for analysis
 SEMESTER_START_DATE = "2025-02-15"  # Filter messages from this date onwards
